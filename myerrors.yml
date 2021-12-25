@@ -10,10 +10,10 @@
    - name: install webserver
      apt:
        name: apache2
-       statee: present
+       state: present
 
    - name: install tree
      apt:
        name: tree
-       state: present    
+       statee: present    
          
