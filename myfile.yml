@@ -1,0 +1,8 @@
+---
+- hosts: 172.31.40.120
+  become: yes
+  tasks:
+    - name: creat a file on node side
+      file:
+      path: /home/ubuntu/testfile
+      state: touch
