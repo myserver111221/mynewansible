@@ -4,5 +4,5 @@
   tasks:
     - name: create a file on node side
       file:
-      path: /home/ubuntu/testfile
+      path: /home/ayaan/mynewansible
       state: touch
