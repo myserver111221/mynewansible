@@ -1,0 +1,19 @@
+---
+- hosts: 172.31.40.120
+  become: yes
+  tasks:
+   - name: install git
+     apt:
+       name: git
+       state: present
+
+   - name: install webserver
+     apt:
+       name: apache2
+       statee: present
+
+   - name: install tree
+     apt:
+       name: tree
+       state: present    
+         
