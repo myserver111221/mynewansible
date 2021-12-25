@@ -4,7 +4,7 @@
   tasks:
    - name: install git
      apt:
-       name: git
+       namee: git
        state: present
 
    - name: install webserver
@@ -15,5 +15,5 @@
    - name: install tree
      apt:
        name: tree
-       statee: present    
+       state: present    
          
