@@ -33,12 +33,15 @@
     recurse: yes
     owner: tomcat
     state: directory
+
+  
 - name: make the tomcat user the owner of the temp directory
   file:
     path: /opt/tomcat/temp/
     recurse: yes
     owner: tomcat
     state: directory
+    
 - name: make the tomcat user the owner of the logs directory
   file:
     path: /opt/tomcat/logs/

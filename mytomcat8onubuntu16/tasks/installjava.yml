@@ -3,7 +3,7 @@
   apt:
     update_cache: yes
 
-- name: install java development kit package with apt
+- name: install the java development kit package with apt
   apt:
    name: default-jdk
    state: present      
